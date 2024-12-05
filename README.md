@@ -23,8 +23,12 @@
 ### 2.2 Navigate to the Repositories Page
 - In the upper-right corner of any page, select your profile picture or avatar, then click on **Repositories**.
 
+![alt text](images/repositories.png)
+
 ### 2.3 Create a New Repository
 - Click on the **New** button on the right-hand side of the screen.
+
+![alt text](images/new_repository.png)
 
 ### 2.4 Fill Out the Repository Details
 - **Repository name**: Type a short, memorable name for your repository.
@@ -35,16 +39,19 @@
 - **Choose a license**: Select a license or choose **None** if you don't need one.
 - Click **Create repository**.
 
+![alt text](images/new_repo_config.png)
+
+## View new repository
+
+Your repository will look like this (below). Click on the green Code button and copy the the repository URL (you will need it for later).
+
+![alt text](images/blank_front_page.png)
+
 ## Cloning the Repository
 
-## Step 1: Obtain the Repository URL
+Open Positron, select the files icon (top left) on the blue bar and clone. Positron will ask you where to save the cloned repository - I reccomend saving it in your PM272/ directory, but anywhere will do! 
 
-### 1.1 Navigate to the Repository
-- Go to the main page of the repository you just created.
-
-### 1.2 Copy the Repository URL
-- Above the list of files, click on **Code**.
-- Copy the URL from the **HTTPS** or **SSH** tab. For beginners, use the **HTTPS** tab.
+![alt text](images/clone_repo.png)
 
 ## Step 2: Install Git and Set Up Your Local Environment
 
@@ -56,13 +63,8 @@
 - Install Git from the [official Git website](https://git-scm.com/downloads).
 - Install Git Bash or use the Command Prompt.
 
-## Step 3: Clone the Repository
+## Create an R file for the session
 
-### 3.1 Open Your Terminal or Command Line
-- On Mac, open Terminal or iTerm.
-- On Windows, open Git Bash or Command Prompt.
+Hover over the icon as in the image below and create a new R file called "health_data_viz.r"
 
-### 3.2 Navigate to Your Desired Directory
-```bash
-cd /path/to/your/directory
-
+![alt text](images/create_new_r_file.png)
