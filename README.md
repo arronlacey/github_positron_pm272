@@ -17,10 +17,26 @@
 You will need to set up a Personal Access Token to connect to GitHub from your computer. Got to Settings > Developer Options > Create Personal Access Token > Classic Token. Please see steps below:
 
 ![alt text](images/pat1.png)
+
+**Go to Developer Settings:**
+
 ![alt text](images/pat2.png)
+
+**Choose Personal Access Token**
+
+
 ![alt text](images/pat3.png)
+
+**Choose Classic**
+
 ![alt text](images/pat4.png)
+
+**Fill in the Note (just a name) and set exipiration to no exipiry**
+
 ![alt text](images/pat5.png)
+
+**Copy the Access Token**
+
 ![alt text](images/pat6.png)
 
 **Copy this Personal Access Token somwhere safe**. No seriously, **Guard it with your life**. You will need to paste it everytime you want to retrieve or send files to GitHub from your local machine. Once you leave this page you will never be able to see it again. Email it to yourself or save it in a file somewhere on your laptop
