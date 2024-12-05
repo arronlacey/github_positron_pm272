@@ -12,7 +12,7 @@
 ### 1.3 Verify Your Email
 - After signing up, verify your email address by clicking on the verification link sent to your email.
 
-### 1.4 Set Up Two-Factor Authentication
+### 1.4 Optional: Set Up Two-Factor Authentication
 - For added security, set up two-factor authentication. This can be done in your account settings.
 
 ## Step 2: Create a New Public Repository
