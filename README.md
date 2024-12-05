@@ -12,8 +12,19 @@
 ### 1.3 Verify Your Email
 - After signing up, verify your email address by clicking on the verification link sent to your email.
 
-### 1.4 Optional: Set Up Two-Factor Authentication
-- For added security, set up two-factor authentication. This can be done in your account settings.
+### 1.4 Create Personal Access Token
+
+You will need to set up a Personal Access Token to connect to GitHub from your computer. Got to Settings > Developer Options > Create Personal Access Token > Classic Token. Please see steps below:
+
+![alt text](images/pat1.png)
+![alt text](images/pat2.png)
+![alt text](images/pat3.png)
+![alt text](images/pat4.png)
+![alt text](images/pat5.png)
+![alt text](images/pat6.png)
+
+**Copy this Personal Access Token somwhere safe**. No seriously, **Guard it with your life**. You will need to paste it everytime you want to retrieve or send files to GitHub from your local machine. Once you leave this page you will never be able to see it again. Email it to yourself or save it in a file somewhere on your laptop
+
 
 ## Step 2: Create a New Public Repository
 
@@ -68,3 +79,50 @@ Open Positron, select the files icon (top left) on the blue bar and clone. Posit
 Hover over the icon as in the image below and create a new R file called "health_data_viz.r"
 
 ![alt text](images/create_new_r_file.png)
+
+
+## Sending the files to GitHub
+
+Follow these steps:
+
+1. Open the terminal and choose GitBash once opened
+
+![alt text](images/terminal.png)
+![alt text](images/choose%20terminal.png)
+
+
+2. In the terminal type these commands:
+
+```
+git add .
+```
+
+This adds all the changed files ready to commit to your local git database
+
+```
+git commit -m "added section on ggplot"
+```
+
+This is a small message so that you know what you did when looking at the databse history. It may also be things like "added the dplyr library" or "wrote for loop for kmeans" etc
+
+At this stage you will likely be asked to put in your email address you used to register with GitHub and your Git Hub username.
+
+![alt text](images/git%20commit.png)
+
+Type the following into the terminal to add your email and username
+
+```
+git config --global user.email "a.s.lacey@swansea.ac.uk"
+```
+
+```
+git config --global user.name "arronlacey"
+```
+
+Then finally you can push your code up to GitHub:
+
+```
+git push
+```
+
+You can now go to your repository on GitHub, refresh the page and see your work.
