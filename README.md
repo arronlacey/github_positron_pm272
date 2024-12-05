@@ -76,10 +76,6 @@ Your repository will look like this (below). Click on the green Code button and 
 
 ## Cloning the Repository
 
-Open Positron, select the files icon (top left) on the blue bar and clone. Positron will ask you where to save the cloned repository - I reccomend saving it in your PM272/ directory, but anywhere will do! 
-
-![alt text](images/clone_repo.png)
-
 ## Step 2: Install Git and Set Up Your Local Environment
 
 ### For Mac:
@@ -89,6 +85,13 @@ Open Positron, select the files icon (top left) on the blue bar and clone. Posit
 ### For Windows:
 - Install Git from the [official Git website](https://git-scm.com/downloads).
 - Install Git Bash or use the Command Prompt.
+
+## Intall positron
+Head to https://github.com/posit-dev/positron/releases and click on Assets. Choose any .exe option for windows, .dmg for mac.
+Install.
+Open Positron, select the files icon (top left) on the blue bar and clone. Positron will ask you where to save the cloned repository - I reccomend saving it in your PM272/ directory, but anywhere will do! 
+
+![alt text](images/clone_repo.png)
 
 ## Create an R file for the session
 
